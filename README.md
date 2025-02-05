@@ -17,5 +17,6 @@ This project demonstrates **JDBC connectivity** with **PostgreSQL** using **Java
 1. Ensure **PostgreSQL** is installed and running.  
 2. Create the **Amigo_Wallet** database and the **status** table.  
 3. Update database credentials in `Main.java` if needed.  
-4. Build and run the project using Maven.  
-
+4. Build and run the project using Maven.
+   
+Note: I used a statement interface instead of a prepared statement, which has the vulnerability of SQL injection.
